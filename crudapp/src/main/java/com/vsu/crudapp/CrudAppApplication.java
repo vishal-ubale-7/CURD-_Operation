@@ -43,11 +43,11 @@ public class CrudAppApplication
 
 //                //operations-2 FindbyId
 //		     Student std = stdService.getStdDetails(2L);
-//		     System.out.println("Id "+std.getId());
-//			 System.out.println("Name "+std.getName());
-//			 System.out.println("Rollno "+std.getRollno());
-//			 System.out.println("Marks "+std.getMarks());
-//		     System.out.println("________________________");
+//		        System.out.println("Id "+std.getId());
+//                      System.out.println("Name "+std.getName());
+//		        System.out.println("Rollno "+std.getRollno());
+//			System.out.println("Marks "+std.getMarks());
+//		        System.out.println("________________________");
 
               // Update Operations
 //	         boolean status = stdService.updateStdDetails(1L,92);
