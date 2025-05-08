@@ -22,11 +22,11 @@ public class CrudAppApplication
 
 
            //Insert Operations
-//		Student std = new Student();
-//		std.setName("Vishal");
-//		std.setRollno(102);
-//		std.setMarks(89.5f);
-//		boolean status =stdService.addStudentDetails(std);
+		Student std = new Student();
+		std.setName("Vishal");
+		std.setRollno(102);
+		std.setMarks(89.5f);
+		boolean status =stdService.addStudentDetails(std);
 
 		   // select operations 1
 
@@ -61,15 +61,15 @@ public class CrudAppApplication
 //			 }
 
 		         //  Delete Student use Id
-		boolean status = stdService.deleteStdDetails(2L);
-		if(status)
-		{
-			System.out.println("Student Details Updated");
-		}
-		else
-		{
-			System.out.println("Student Details is not updated due to same error");
-		}
+		// boolean status = stdService.deleteStdDetails(2L);
+		// if(status)
+		// {
+		// 	System.out.println("Student Details Updated");
+		// }
+		// else
+		// {
+		// 	System.out.println("Student Details is not updated due to same error");
+		// }
 		}
 	}
 
