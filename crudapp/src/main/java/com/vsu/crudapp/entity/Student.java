@@ -7,7 +7,7 @@ import jakarta.persistence.*;
 
 public class Student
 {
-    @Id
+    @id
     @GeneratedValue(strategy = GenerationType.IDENTITY )
     @Column
     private long id;
@@ -18,36 +18,44 @@ public class Student
     @Column
     private float marks;
 
-    public long getId() {
+    public long getId()
+    {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(long id) 
+    {
         this.id = id;
     }
 
-    public float getMarks() {
+    public float getMarks() 
+    {
         return marks;
     }
 
 
-    public void setMarks(float marks) {
+    public void setMarks(float marks)
+    {
         this.marks = marks;
     }
 
-    public int getRollno() {
+    public int getRollno() 
+    {
         return rollno;
     }
 
-    public void setRollno() {
+    public void setRollno() 
+    {
         this.rollno = rollno;
     }
 
-    public String getName() {
+    public String getName() 
+    {
         return name;
     }
 
-    public void setName(String name) {
+    public void setName(String name)
+    {
         this.name = name;
     }
 }
